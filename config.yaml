@@ -1,0 +1,29 @@
+model:
+pretrained: True
+
+vqconfig:
+  codebook_size: 1024
+  codebook_dim: 64
+  commitment_beta: 0.25
+  decay: 0.99
+
+
+dataset: 
+task:
+pertb_data: 50
+data_pct: 100
+img_size: 256
+data_workers: 16
+train_bs: 64
+val_bs: 1
+
+lr: 0.0001
+schedule_factor: 0.1            
+schedule_patience: 5           
+wd: 1e-4
+total_epochs: 300
+patience: 10
+
+resume_path:
+ckpt_path: 
+log_step: 50

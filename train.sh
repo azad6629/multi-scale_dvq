@@ -1,0 +1,1 @@
+python dynamic_chex_main.py -model_name dynamic_dense121 -ne 1024 -ed 64 -cc 0.25 -batch 64
