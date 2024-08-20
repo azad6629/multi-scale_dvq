@@ -1,7 +1,9 @@
-Entropy-Guided Multi-Scale Dynamic Vector Quantization for Robust Medical Image Representation
-This repository contains the implementation of the method proposed in the paper "Entropy-Guided Multi-Scale Dynamic Vector Quantization for Robust Medical Image Representation".
-Project Overview
+#Entropy-Guided Multi-Scale Dynamic Vector Quantization for Robust Medical Image Representation
+This repository contains the implementation of the method proposed in the paper "Entropy-Guided Multi-Scale Dynamic Vector Quantization for Robust Medical Image Representation"
+
+#Project Overview
 This project implements a novel approach for robust medical image representation using multi-scale dynamic vector quantization. The current implementation focuses on training the model using the NIH dataset with a DenseNet121 backbone.
+
 Setup
 Prerequisites
 
